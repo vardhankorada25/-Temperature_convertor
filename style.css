@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 80vh;
+
+}
+.container
+{
+    background-color: black;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+   
+    font-family: sans-serif;
+}
+h3
+{
+    font-size: larger;
+    color: white;
+}
+.temperatureicon
+{
+    color: white;
+}
+.tittle
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+#celcius,#fahrenheit,#kelvin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+input{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+}
+.icon
+{
+    background-color: white;
+    height:40px ;
+    width: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.bt
+{
+    margin-top: 25px;
+    
+    text-align: center;
+}
+.bt button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius:3px ;
+    transition: 0.3s;
+}
+.bt:active
+{
+   transform:scale(0.9);
+}
